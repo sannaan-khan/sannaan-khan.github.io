@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sannaan</title>
+    <meta name="description" content="Academic portfolio.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Tailwind Configuration for KSU Branding -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ksu: {
+                            purple: '#512888',
+                            dark: '#3d1e66',
+                            light: '#f5f0fa'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::selection { background-color: #512888; color: white; }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
+            <a href="#" class="text-xl font-bold text-ksu-purple tracking-tight">Sannaan</a>
+            <div class="flex gap-6 text-sm font-medium text-gray-700">
+                <a href="#about" class="hover:text-ksu-purple transition-colors">About</a>
+                <a href="#journey" class="hover:text-ksu-purple transition-colors">Academic Journey</a>
+                <a href="#news" class="hover:text-ksu-purple transition-colors">News</a>
+                <a href="#publications" class="hover:text-ksu-purple transition-colors">Publications</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+        
+        <!-- HERO SECTION -->
+        <section id="home" class="flex flex-col-reverse md:flex-row items-center gap-12 pt-10">
+            <div class="flex-1 space-y-6">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+                    Hi, I'm Sannaan
+                </h1>
+                <div class="space-y-2 text-lg text-gray-800">
+                    <p class="font-semibold text-gray-900">Ph.D. Student - Electrical & Computer Engineering</p>
+                    <p>
+                        <a href="https://www.k-state.edu/" target="_blank" rel="noreferrer"
+                           class="text-ksu-purple hover:underline font-medium">
+                            K-State | Kansas State University
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="mailto:sannaan@ksu.edu" class="px-5 py-2.5 rounded-md bg-ksu-purple text-white font-medium shadow-sm transition-opacity hover:opacity-90">
+                        Email Me
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=6-qXVNoAAAAJ&hl=en" target="_blank" rel="noreferrer" class="px-5 py-2.5 rounded-md bg-white border border-gray-300 text-gray-800 font-medium hover:bg-gray-50 transition-colors">
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/sk-zone" target="_blank" rel="noreferrer" class="px-5 py-2.5 rounded-md bg-white border border-gray-300 text-gray-800 font-medium hover:bg-gray-50 transition-colors">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/sannaan/" target="_blank" rel="noreferrer" class="px-5 py-2.5 rounded-md bg-white border border-gray-300 text-gray-800 font-medium hover:bg-gray-50 transition-colors">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-48 h-48 md:w-64 md:h-64 flex-shrink-0">
+                <img src="SK.png" alt="Sannaan"
+                     class="w-full h-full object-cover rounded-full shadow-lg border-4 border-white">
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="scroll-mt-24">
+    <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">About Me</h2>
+
+    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 space-y-6">
+
+        <p class="text-gray-800 leading-relaxed text-justify">
+            I am currently a PhD student in the <a href="https://ece.k-state.edu/" target="_blank" rel="noreferrer" class="text-ksu-purple hover:underline font-medium">Mike Wiegers Department of Electrical & Computer Engineering</a> at <a href="https://en.wikipedia.org/wiki/Kansas_State_University" target="_blank" rel="noreferrer" class="text-ksu-purple hover:underline font-medium">Kansas State University (K-State)</a>, working under the supervision of <a href="https://ece.k-state.edu/about/people/faculty/khan/" target="_blank" rel="noreferrer" class="text-ksu-purple hover:underline font-medium">Prof. Samee U. Khan</a>, Fiedler Distinguished Chair in Electrical and Computer Engineering.
+        </p>
+
+        <p class="text-gray-800 leading-relaxed text-justify">
+            My research focuses on developing Trustworthy Quantum AI Systems, with particular interest in robust, secure, privacy-preserving, fair, and explainable intelligent systems across classical, quantum, and hybrid computational paradigms. Ultimately, my work seeks to advance intelligent systems that unite computational capabilities with the trustworthiness necessary for reliable real-world deployment under operational and structural constraints.
+        </p>
+
+        <p class="text-gray-800 leading-relaxed text-justify">
+            My PhD is supported by the <a href="https://www.nsf.gov" target="_blank" rel="noreferrer" class="text-ksu-purple hover:underline font-medium">National Science Foundation (NSF)</a>.
+        </p>
+
+    </div>
+</section>
+
+        <!-- ACADEMIC JOURNEY SECTION -->
+        <section id="journey" class="scroll-mt-24">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">Academic Journey</h2>
+            <div class="space-y-6">
+                
+                <!-- PhD -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm border-l-4 border-l-ksu-purple">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <h3 class="font-bold text-gray-900 text-lg">Ph.D.</h3>
+                        <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Current</span>
+                    </div>
+                    <p class="font-medium text-gray-800 mt-1">
+                        <a href="https://www.k-state.edu/" target="_blank" rel="noreferrer"
+                           class="text-ksu-purple hover:underline font-medium block mt-1">
+                            K-State
+                        </a>
+                    </p>
+                    <p class="text-sm text-gray-800 mt-3">
+                        <span class="font-semibold text-gray-900">Research Area:</span> Trustworthy Quantum AI Systems
+                    </p>
+                    <div class="mt-4 text-sm text-gray-800 border-t pt-3 border-gray-100">
+                        <span class="font-semibold text-gray-900">Supervisor: </span>
+                        <a href="https://sites.google.com/view/sameekhan/" target="_blank" rel="noreferrer"
+                           class="text-ksu-purple hover:underline font-medium">
+                            Dr. Samee U. Khan
+                        </a>
+                        <p class="text-xs text-gray-600 mt-1">
+                            Fiedler Distinguished Chair Professor & Head, Mike Wiegers Department of Electrical & Computer Engineering
+                        </p>
+                    </div>
+                </div>
+
+                <!-- MS -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-lg">M.S.</h3>
+                    <a href="https://nust.edu.pk" target="_blank" rel="noreferrer"
+                       class="text-ksu-purple hover:underline font-medium block mt-1">
+                        National University of Sciences & Technology (NUST)
+                    </a>
+                    <div class="mt-3 text-sm text-gray-800 border-t pt-3 border-gray-100">
+                        <span class="font-semibold text-gray-900">Supervisor: </span>
+                        <a href="https://sites.google.com/site/ushahidkhan/home" target="_blank" rel="noreferrer"
+                           class="text-ksu-purple hover:underline font-medium">
+                            Dr. Muhammad U. S. Khan
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BS -->
+                <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-lg">B.S.</h3>
+                    <a href="https://comsats.edu.pk" target="_blank" rel="noreferrer"
+                       class="text-ksu-purple hover:underline font-medium block mt-1">
+                        COMSATS University Islamabad
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NEWS SECTION -->
+        <section id="news" class="scroll-mt-24">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">News & Updates</h2>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <ul class="divide-y divide-gray-100">
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">Aug 2026</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">Started Ph.D. at K-State</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                Began my PhD in ECE under the supervision of Dr. Samee Khan, where I will be researching Trustworthy Quantum AI Systems. My research is supported by the NSF.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">May 2026</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">Thesis Defense</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                Successfully defended my M.S. thesis, "Manipulating Algorithmic Fairness and Post-hoc Explainability".
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">Dec 2025</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">CPIF Project</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                Led the Comparative Pandemic Intelligence Framework (CPIF) project in collaboration with health experts from Development Synergie using extensive local data.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">Nov 2025</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">TIRA paper upgraded to Oral at NeurIPS-W 2025</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                Our paper "The Unseen Hand Manipulating Model Fairness and SHAP with Targeted Identity Re-Association Attacks" has been upgraded to an Oral. The work has also been selected for presentation at the AE Joint Poster Session at NeurIPS.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">Sep 2025</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">NeurIPS-W 2025 Acceptances</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                Our works on model fairness and training-time explainability were accepted to NeurIPS 2025 Workshops.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="p-6 hover:bg-gray-50 transition-colors flex flex-col md:flex-row gap-4">
+                        <div class="md:w-32 flex-shrink-0 font-bold text-ksu-purple">Jun 2025</div>
+                        <div>
+                            <h4 class="text-lg font-bold text-gray-900">Best Paper Explanation Award</h4>
+                            <p class="text-gray-800 mt-1 text-sm md:text-base leading-relaxed">
+                                We have been awarded the Best Paper Explanation Award for our presentation on Anthropic's "On the Biology of a Large Language Model".
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- PUBLICATIONS -->
+        <section id="publications" class="scroll-mt-24">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">Publications</h2>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
+                <p class="text-gray-800 italic">
+                    For a complete and up-to-date list of my publications, please visit my 
+                    <a href="https://scholar.google.com/citations?user=6-qXVNoAAAAJ&hl=en"
+                        class="text-ksu-purple hover:underline font-medium" target="_blank" rel="noreferrer">
+                        Google Scholar profile
+                    </a>.
+                </p>
+            </div>
+        </section>
+
+        <!-- SERVICE -->
+        <section id="service" class="scroll-mt-24 mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-2">Academic Service</h2>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">Reviewer</h3>
+                <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <li class="flex items-center gap-2 text-gray-800">
+                        <svg class="w-5 h-5 text-ksu-purple" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        WCCI IJCNN
+                    </li>
+                    <li class="flex items-center gap-2 text-gray-800">
+                        <svg class="w-5 h-5 text-ksu-purple" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        NeurIPS Workshops
+                    </li>
+                    <li class="flex items-center gap-2 text-gray-800">
+                        <svg class="w-5 h-5 text-ksu-purple" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        ICIP
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-300 py-8 border-t-4 border-ksu-purple">
+        <div class="max-w-5xl mx-auto px-6 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <p class="font-medium text-white">Sannaan</p>
+                <p class="text-sm text-gray-400">Ph.D. Student | K-State</p>
+            </div>
+            <div class="text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Sannaan. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
